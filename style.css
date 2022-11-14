@@ -25,6 +25,13 @@ body{
     top: 26%;
     left: 40%;
 }
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer h3{
+ font-weight: 400;
+}
 textarea{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;
