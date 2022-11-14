@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Architects Daughter';
+    background: rgb(255, 233, 233);
+}
+.main-container{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+}
+.container-1{
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+textarea{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border: none;
+    outline: none;
+    width: 275px;
+    height: 275px;
+    font-size: 20px;
+}
+#done-icon{
+    position: absolute;
+    right: 14%;
+    top: 4%;
+}
+#x-icon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
